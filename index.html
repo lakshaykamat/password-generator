@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="bg-lime-200 flex justify-center items-center h-[100vh] flex-wrap flex-col">
+    <h1 class="text-6xl font-black m-3 flex text-center">Password Generator</h1>
+    
+    <span class="m-3 border-2 border-white border-solid py-3 px-5 bg-blue-300 rounded-xl flex justify-center items-center w-[13rem] h-[3rem]" id="result"></span>
+    
+    <button class="m-3 bg-blue-200 py-3 px-5 rounded-xl hover:drop-shadow-2xl uppercase bolder text-lg" onclick="passwordGenerator()" id="btn">Generate Password</button>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
