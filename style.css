@@ -13,5 +13,6 @@
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 #btn:hover{
+    font-size: 1.2rem;
     border: 1px solid #000;
 }
