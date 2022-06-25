@@ -12,7 +12,7 @@ function passwordGenerator(){
     }
     let para = document.createElement('p');
     para.id = 'content';
-    para.className = ["text-center cursor-pointer text-xl " ]
+    para.className = ["text-center cursor-pointer text-xl" ]
     para.title = "Copy to Clipboard"
     para.onclick = function(){handleCopyTextFromParagraph()}
     spanEl.appendChild(para);

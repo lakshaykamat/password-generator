@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 *{
     font-family: 'Josefin Sans', sans-serif;
-    /* border: 1px solid; */
+    /* border: 2px solid; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,14 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+#btn{
+    -webkit-box-shadow: 18px 3px 54px -12px rgba(0,0,0,0.55);
+    -moz-box-shadow: 18px 3px 54px -12px rgba(0,0,0,0.55);
+    box-shadow: 18px 3px 54px -12px rgba(0,0,0,0.55);
+}
 #btn:hover{
-    font-size: 1.2rem;
-    border: 1px solid #000;
+    -webkit-box-shadow: 18px 3px 54px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 18px 3px 54px 0px rgba(0,0,0,0.55);
+    box-shadow: 18px 3px 54px 0px rgba(0,0,0,0.55);
+    border: 2px solid rgb(231, 95, 231);
 }
