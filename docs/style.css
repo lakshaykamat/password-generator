@@ -31,11 +31,14 @@ h1{
 }
 hr{
     margin: .5rem;
-    height: 2px;
+    height: 1px;
     width: 100%;
 }
 .includesymbols{
     display: inline-block;
+}
+label{
+    margin: 0 .4rem;
 }
 .input{
     padding: .3rem;
