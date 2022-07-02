@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam&family=Finlandica&display=swap');
 *{
     margin: 0;
     padding: 0;
     transition: .5s ease;
     box-sizing: border-box;
+    font-family: 'Finlandica', sans-serif;
 }
 body{
     background-color: #000;
@@ -37,13 +39,10 @@ hr{
 .includesymbols{
     display: inline-block;
 }
-label{
-    margin: 0 .4rem;
-}
 .input{
     padding: .3rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     margin: .5rem;
 }
