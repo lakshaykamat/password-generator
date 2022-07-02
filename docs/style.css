@@ -64,7 +64,7 @@ button{
     cursor: pointer;
 }
 .output{
-    cursor: copy;
+    position: relative;
     border-radius: 5px;
     margin: 1rem;
     font-size: 1rem;
@@ -75,4 +75,11 @@ button{
 }
 select{
     width: 20%;
+}
+svg{
+    cursor: pointer;
+    position: absolute;
+    top: 8%;
+    right: 7px;
+    width: 25px;
 }
