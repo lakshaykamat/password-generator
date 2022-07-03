@@ -58,7 +58,7 @@ function generatePassword (lower, upper, number, symbol, length) {
 
     //if not boxes are checked means all are false that means types count are equals to 0
     if(typescount === 0){
-        return ''//return empty string
+        return 'Select any one check box'//return empty string
     }
 
     //for loop for creating the password in a loop but here we are incrementing by typescount(checked boxes)
